@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AssignmentOne</string>
+    <string name="Gender">Gender</string>>
+    <string name="gender_boy">Boy</string>
+    <string name="gender_girl">Girl</string>>
+
+    <string name="Login">Login</string>
+</resources>
