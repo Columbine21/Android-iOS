@@ -26,17 +26,17 @@ Date: 2020/3/16
 
 -   功能简介：在模拟器中打开我们编写的App。效果如下：
 
-    <img src="/Users/yuanziqi/Desktop/Android-iOS/assignment3.16/image/3_16_figure1.png" style="zoom:50%;" />
+    <img src="./image/3_16_figure1.png" style="zoom:50%;" />
 
 -   交互功能说明：
 
     1.  首先使用图中“小智”头像旁边的Switch控件，点击可以切换头像（切换成女版头像）
 
-        <img src="/Users/yuanziqi/Desktop/Android-iOS/assignment3.16/image/3_16_figure2.png" style="zoom:50%;" />
+        <img src="./image/3_16_figure2.png" style="zoom:50%;" />
 
     2.  点击Login button启动环形Processbar，设置多线程完成Processbar的更新功能。同时用户点击登陆按钮后冻结LoginButton，不允许用户多次点击 Login。
 
-        <img src="/Users/yuanziqi/Desktop/Android-iOS/assignment3.16/image/3_16_figure3.png" style="zoom:50%;" />
+        <img src="./image/3_16_figure3.png" style="zoom:50%;" />
 
     3.  在Processbar达到最大值后（设置为10s）Login接触冻结，并且将processbar和LoadingText隐藏。
 

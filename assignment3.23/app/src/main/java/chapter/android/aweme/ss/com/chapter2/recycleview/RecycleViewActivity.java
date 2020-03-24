@@ -25,6 +25,7 @@ public class RecycleViewActivity extends AppCompatActivity implements GreenAdapt
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycleview);
+
         mNumbersListView = findViewById(R.id.rv_numbers);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
