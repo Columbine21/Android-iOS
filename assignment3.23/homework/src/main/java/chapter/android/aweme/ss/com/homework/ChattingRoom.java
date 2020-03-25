@@ -56,6 +56,7 @@ public class ChattingRoom extends AppCompatActivity implements View.OnClickListe
                     showMessage(messageBox.getText().toString(), contacter);
                 }
             }, 1500);
+            messageBox.setText("");
         }
     }
 
