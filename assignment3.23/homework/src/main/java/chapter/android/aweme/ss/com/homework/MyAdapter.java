@@ -77,8 +77,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MessageViewHolder>
             tvTitle.setText(curMessage.getTitle());
             tvDescription.setText(curMessage.getDescription());
             tvTime.setText(curMessage.getTime());
-            if(curMessage.isOfficial())
+            if(curMessage.isOfficial()) {
+                Log.d(TAG, "set Official image");
                 robotNotice.setImageResource(R.drawable.im_icon_notice_official);
+                robotNotice.setVisibility(View.VISIBLE);
+            }
             switch (curMessage.getIcon()){
                 case "TYPE_ROBOT":
                     avatar.setImageResource(R.drawable.session_robot);
