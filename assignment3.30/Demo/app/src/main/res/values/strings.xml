@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Chapter3Demo</string>
+    <string name="long_marquee_text">long long long long long long long long long long long text</string>
+    <string name="marquee_text_view_demo">MarqueeTextViewDemo</string>
+    <string name="rotation_property_demo">RotationPropertyDemo</string>
+    <string name="scale_property_demo">ScalePropertyDemo</string>
+    <string name="transition_activity_demo">ActivityTransition</string>
+    <string name="slide_vertical">SlideVertical</string>
+    <string name="slide_horizontal">SlideHorizontal</string>
+    <string name="fade">Fade</string>
+    <string name="lottie_demo">LottieDemo</string>
+    <string name="fragment_lifecycle_demo">FragmentLifecycleDemo</string>
+    <string name="hello_fragment">Hello Fragment!</string>
+    <string name="fragment_dynamic_demo">DynamicAddFragmentDemo</string>
+    <string name="pick_color">Pick Background Color</string>
+    <string name="fragment_arguments_demo">ArgumentsDemo</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="fragment_view_pager_demo">ViewPagerDemo</string>
+    <string name="fragment_communication_demo">FragmentCommunicationDemo</string>
+    <string name="update_title">Update Title</string>
+    <string name="collect">收藏</string>
+    <string name="fragment_master_detail_demo">MasterDetailDemo</string>
+    <string name="fragment_view_pager_strip_demo">ViewPagerWithStripDemo</string>
+</resources>
