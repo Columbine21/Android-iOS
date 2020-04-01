@@ -40,7 +40,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MessageViewHolder>
 
         MessageViewHolder viewHolder = new MessageViewHolder(view);
         Log.d(TAG, "onCreateViewHolder\n");
-        return  viewHolder;
+        return viewHolder;
     }
 
     @Override

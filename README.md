@@ -23,7 +23,17 @@
 ## Lesson two Android基础UI开发
 
 -   Android `Activity` 生命周期实验，在界面和`logcat` 中同时显示 `Activity` 生命周期活动（`onCreate, onStart, onResume, onPause, onStop, onDestroy, onSaveInstanceState, onRestoreInstanceState, etc`）
-
 -   抖音面试题：求一个 `Activity` 中的所有的组件个数，并用`TextView`显示。
-
 -   实现一个类似抖音消息页面，并且点击每个 `RecycleView` 的 item，能够跳转到一个新的界面，并且在新的页面显示出他是第几个 item。
+
+## Lesson three 界面开发 Animator & Fragment
+
+-   引入 Lottie 库实现简单的图标动画。
+
+-   使用属性动画，练习 `AnimatorSet` 和 `scale`/`fade` 等基本动画样式。
+
+-   使用 `ViewPager` 和 `Fragment` 做一个简单版的好友列表界面。
+
+-   生成的 apk 位置 release 中 v3。
+
+    
