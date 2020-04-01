@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PlaceholderFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/friend_list"
+        android:layout_width="match_parent"
+        android:alpha="0"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/friend_list_item"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/material_wave_loading"
+        app:lottie_loop="true"/>
 
 </FrameLayout>
