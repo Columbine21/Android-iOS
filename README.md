@@ -29,11 +29,12 @@
 ## Lesson three 界面开发 Animator & Fragment
 
 -   引入 Lottie 库实现简单的图标动画。
-
 -   使用属性动画，练习 `AnimatorSet` 和 `scale`/`fade` 等基本动画样式。
-
 -   使用 `ViewPager` 和 `Fragment` 做一个简单版的好友列表界面。
-
 -   生成的 apk 位置 release 中 v3。
 
-    
+## Lesson four handler多线程&自定义View绘制
+
+-   完成时钟功能，每一秒钟秒针进行跳动（handler方法和postInvalidataDelayed(1000);方法）
+-   完成绘制表盘功能。
+
