@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3af4678e-6c46-465d-a504-3bfbd11c1a1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../assignment3.30/Homework/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3.30/Homework/app/release/app-release.apk" afterDir="false" />
-    </list>
+    <list default="true" id="3af4678e-6c46-465d-a504-3bfbd11c1a1f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
