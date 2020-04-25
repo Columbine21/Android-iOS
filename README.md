@@ -38,3 +38,9 @@
 -   完成时钟功能，每一秒钟秒针进行跳动（handler方法和postInvalidataDelayed(1000);方法）
 -   完成绘制表盘功能。
 
+## Lesson five Network(http:Get/Post) 
+
+-   RESTful (Representational State Transfer) 
+-   JSON / GSON 文件格式&解析
+-   使用 Retrofit2 构造网络的get / post 请求
+
