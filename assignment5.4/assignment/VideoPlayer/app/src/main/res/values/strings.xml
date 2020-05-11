@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Video Player</string>
+    <string name="unknow_seek_time">00:00:00</string>
 </resources>
