@@ -44,3 +44,12 @@
 -   JSON / GSON 文件格式&解析
 -   使用 Retrofit2 构造网络的get / post 请求
 
+## Lesson six 
+
+-   Android 存储系统
+
+## Lesson seven
+
+-   Android 多媒体基础
+    -   照片库
+    -   视频播放器库
