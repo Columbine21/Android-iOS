@@ -8,10 +8,10 @@ import android.widget.VideoView;
 
 public class MyVideoView extends VideoView {
 
-    private boolean config = false;
+    private boolean isHorizonal = false;
 
-    public void setConfig(boolean config) {
-        this.config = config;
+    public void setConfig(boolean isHorizonal) {
+        this.isHorizonal = isHorizonal;
     }
 
     public MyVideoView(Context context) {
@@ -33,13 +33,14 @@ public class MyVideoView extends VideoView {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        if (config) {
+        if (isHorizonal) {
             int width=getDefaultSize(0,widthMeasureSpec);
             int height=getDefaultSize(0,heightMeasureSpec);
             setMeasuredDimension(width,height);
         }
         else {
-            super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+            int width = getDefaultSize(0, widthMeasureSpec);
+            setMeasuredDimension(width, 600);
         }
     }
 }

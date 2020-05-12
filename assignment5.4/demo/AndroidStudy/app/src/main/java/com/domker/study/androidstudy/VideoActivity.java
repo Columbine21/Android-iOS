@@ -38,6 +38,8 @@ public class VideoActivity extends AppCompatActivity {
         videoView.setVideoPath(getVideoPath(R.raw.bytedance));
     }
 
+
+
     private String getVideoPath(int resId) {
         return "android.resource://" + this.getPackageName() + "/" + resId;
     }
